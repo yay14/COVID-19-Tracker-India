@@ -56,7 +56,7 @@ class Home extends React.Component {
             <HashLoader size={30} color={"#84EDB4"} loading={this.state.loading} />
           </div>
           <div className="Loader">
-            {this.state.loading ? <div style={{ display: "flex", justifyContent: "center", margin: "10px", fontFamily: "'Cinzel', serif" }}><p> Loading.. </p></div> : ""}
+            {this.state.loading ? <div style={{ display: "flex", justifyContent: "center", margin: "10px", fontFamily: "'Cinzel', serif" }}><p> Loading.... </p></div> : ""}
           </div>
           <div className="App">
             <div id="cards" className="col-12">
